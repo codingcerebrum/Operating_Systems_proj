@@ -9,6 +9,16 @@ struct process {
 	int remaining_time;
 	int arrival_time;
 };
+void getInput();
+void calcWaitingTime(struct process *q, int);
+void calcTurnAroundTime(struct process *q, int);
+void printQueue(struct process *q, int size);
+void RoundRobin();
+void PrioSorting();
+void FCFS();
+void printQueueI(struct process);
+void printQueue(struct process *, int);
+
 //Queues
 //Q1 = Batch Process having Low Priority with FCFS Algorithm
 //Q2 = Interactive Process having Medium Priority with Priority Based Sorting
