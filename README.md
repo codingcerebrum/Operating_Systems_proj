@@ -6,7 +6,7 @@ Write a program for multilevel queue scheduling algorithm. There must be three q
 i.e. to apply round robin algorithm OF 10 seconds on over all structure.
 Calculate Waiting time and turnaround time for every process. The input for number of processes should be given by the user.
 
-# Multilevel Queue Scheduling
+# Solution Abstract
 Multi Level Queue Scheduling Algorithm in Operating System
 
 
